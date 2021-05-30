@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+message Bar {
+  uint32 id = 1;
+  PricePoint pricePoint = 2;
+  uint32 capacity = 3;
+  string name = 4;
+
+  oneof location {
+    string plus_code = 5;
+    Address address = 6;
+  }
+}
+
+enum PricePoint {
+  PRICE_POINT_UNDEFINED = 0;
+  PRICE_POINT_DIVE = 1;
+  PRICE_POINT_MEDIUM = 2;
+  PRICE_POINT_HIGH = 3;
+}
+
+ message Address {
+  string street_name = 1;
+  uint32 zip_code = 2;
+  string city = 3;
+}

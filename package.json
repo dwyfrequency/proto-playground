@@ -1,0 +1,25 @@
+{
+  "name": "proto-playground",
+  "version": "1.0.0",
+  "description": "just playing with protos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwyfrequency/proto-playground.git"
+  },
+  "author": "dwyfrequency",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwyfrequency/proto-playground/issues"
+  },
+  "homepage": "https://github.com/dwyfrequency/proto-playground#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "google-protobuf": "^3.17.1"
+  }
+}
